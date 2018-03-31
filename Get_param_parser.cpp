@@ -1,7 +1,12 @@
-// SIMPLE REQUEST
-// http://192.168.1.46/?&PAR01=255&PAR02=200|
+//GET /?&PAR01=100&PAR02=200| HTTP/1.1
+//Host: 192.168.1.46
+//Connection: keep-alive
+//Accept: */*
+//Origin: null
+//User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+//Accept-Encoding: gzip, deflate
+//Accept-Language: lt,en-US;q=0.8,en;q=0.6,ru;q=0.4,pl;q=0.2
 
-// TEST STRING: GET /?&PAR01=255&PAR02=200
 
 #include <Arduino.h>
 #include "Get_params_parser.h"
