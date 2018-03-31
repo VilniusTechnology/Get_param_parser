@@ -12,8 +12,8 @@
 #include "Get_params_parser.h"
 
 Get_params_parser::Get_params_parser(String paramString){
- Serial.print(F(" PARAM STRING : "));
- Serial.println(paramString);
+ // Serial.print(F(" PARAM STRING : "));
+ // Serial.println(paramString);
 
  int endPosition = paramString.indexOf('|');
  int maxIndex = paramString.length();
